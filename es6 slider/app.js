@@ -7,22 +7,22 @@ if (data.length === 1) {
   nextBtn.style.display = "none";
   prevBtn.style.display = "none";
 }
-// if length is 3, add copies of slides
+// if length is 5, add copies of slides
 let people = [...data];
-if (data.length === 3) {
+if (data.length === 5) {
   people = [...data, ...data];
 }
 container.innerHTML = people
   .map((person, slideIndex) => {
     const { img, name, job, text } = person;
     let position = "next";
-    if (slideIndex === 0) {
+    if (slideIndex === 1) {
       position = "last";
     }
     if (slideIndex === people.length - 1) {
       position = "active ";
     }
-    if (data.length <= 1) {
+    if (data.length <= 2) {
       position = "last";
     }
     return `<article class="slide ${position}">
