@@ -18,6 +18,7 @@ const people = [
       "https://res.cloudinary.com/diqqf3eq2/image/upload/c_scale,w_200/v1595959131/person-3_rxtqvi.jpg",
     name: "emma doe",
     job: "developer",
+    desingation: "SeniorDeveloper"
     text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quoeius recusandae officia voluptas sint deserunt dicta nihil nam omnis?`,
   },
 ];
